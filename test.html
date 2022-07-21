@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <title>jQuery Test Page</title>
+    <style>
+
+        div#myDiv {
+            /*
+            background-color:lightskyblue;
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>jQuery Test Page</h1>
+    <div id="myDiv">I'm inside a div with an id of myDiv</div>
+<script>
+
+//document.getElementbyId("myDiv").innerHTML= "New Text";
+
+    $("document").ready(function(){
+        //$("div#myDiv").css("background-color","lightskyblue");
+        //$("div#myDiv").text("Text from jQuery");
+        $("div#myDiv").append(" appends text from JQuery");
+    });
+
+
+
+</script>   
+</body>
+
+</html>
