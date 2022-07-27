@@ -3,5 +3,8 @@ $("document").ready(function(){
         e.preventDefault();//stop default submission
         var season = $(this).attr("href");//contents of href attribute of this element
         alert(season);
+
+        $("html").css("background-color", "#2B7129");
+
     });
 });
